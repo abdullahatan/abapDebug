@@ -109,7 +109,7 @@ Break./Wachpoints sekmesinden aktif olan Breakpoint ve Wachpoint-ler izlenebilir
 #### 4) Değişken Hızlı Görünüm:
   Hata ayıklayıcıdaki verileri keşfetmenize olanak tanır. Bu bölüm içerisinde bildirilen yerel değişkenleri ve genel olarak bildirilen değişkenleri içerir. Bu alanı, önceden doğru yetkilere sahipseniz, değişkenlere atanan değerleri değiştirmek için de kullanabilirsiniz.
   
-![image](https://user-images.githubusercontent.com/26427511/159188524-94841168-afd0-4ec1-8575-29a5e459cb7d.png)
+![image](https://user-images.githubusercontent.com/26427511/159188524-94841168-afd0-4ec1-8575-29a5e459cb7d.png) 
 
  
 
