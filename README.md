@@ -54,8 +54,7 @@ Düzenleyici(SE38, SE37) → Yardımcı Programlar → Kesme Noktası → Görü
 
 
 #### 1) Başlık Alanı:
-- Hata ayıklama komutlarının, yürütme adımları ve görünümlerinin bulunduğı kısımdır.
-- Mevcut olayı ve kod içerisinden hangi rutinlerde olduğumuz hakkındaki bilgileri görebiliriz.
+  Hata ayıklama komutlarının, yürütme adımları ve görünümlerinin bulunduğı kısımdır. Mevcut olayı ve kod içerisinden hangi rutinlerde olduğumuz hakkındaki bilgileri görebiliriz.
 
 | Buton      | Tanım       | Kısa Yol    | Açıklama    |   
 | -----------| ----------- | ----------- | ----------- |
@@ -95,11 +94,22 @@ Break./Wachpoints sekmesinden aktif olan Breakpoint ve Wachpoint-ler izlenebilir
 ![image](https://user-images.githubusercontent.com/26427511/159187242-a9daa3f8-6c1f-4df5-a20f-359a8c07d8e0.png)
 
   
+#### 2) Kaynak Kod Alanı:
+  Yürütülmekte olan ABAP kodunun düzenleyici görünümüdür. Sol kenardaki küçük sarı ok, şu anda hangi ABAP ifadesinin yürütülmekte olduğunu satırı gösterir. Sol kenar boşluğuna tıklayarak da hata ayıklayıcı kesme noktaları ayarlayabilir.
 
+![image](https://user-images.githubusercontent.com/26427511/159188154-5e160a75-92a5-4b6a-b6fc-55cbf4f1e84b.png)
+
+
+#### 3) Çağrı Yığını(Call Stack):
+  İşlenmekte olan mevcut olaya yol açan kod çağrılarının gösterildiği bölümdür. Çağrı yığınında gördüğünüz satırlara çift tıklayarak olayın gerçekleştiği kaynak koda gidilebilir. Kesme noktasındaki olay her zaman yığının en üstündedir ve işlemeyi bu noktaya getiren ilk olay en alttadır. SAP, yerel değişkenleri ve global değişkenlere atanan değerler dahil olmak üzere her yığın katmanının durumunu önbelleğe aldığı için bu yararlı olabilir.
+
+![image](https://user-images.githubusercontent.com/26427511/159188345-5c07c03d-7325-45f3-b1ea-c05683dbee8d.png)
 
   
-
+#### 4) Değişken Hızlı Görünüm:
+  Hata ayıklayıcıdaki verileri keşfetmenize olanak tanır. Bu bölüm içerisinde bildirilen yerel değişkenleri ve genel olarak bildirilen değişkenleri içerir. Bu alanı, önceden doğru yetkilere sahipseniz, değişkenlere atanan değerleri değiştirmek için de kullanabilirsiniz.
   
+![image](https://user-images.githubusercontent.com/26427511/159188524-94841168-afd0-4ec1-8575-29a5e459cb7d.png)
 
  
 
