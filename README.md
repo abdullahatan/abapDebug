@@ -89,7 +89,7 @@ Bir İzleme Noktası oluşturmak için Yeni ABAP Hata Ayıklayıcı'daki Watchpo
   
 #### Hata Ayıklama Programı Breakpoint ve Watchpoint Görünümleri:
   
-Break./Wachpoints sekmesinden aktif olan Breakpoint ve Wachpoint-ler izlenebilir. Bu sekmne üzerindeki butonlar ile sileme, inaktif etme, aktif etme ve kaydetme gibi işlemler yapılabilir.
+Break./Wacthpoints sekmesinden aktif olan Breakpoint ve Watchpoint-ler izlenebilir. Bu sekmne üzerindeki butonlar ile sileme, inaktif etme, aktif etme ve kaydetme gibi işlemler yapılabilir.
 
 ![image](https://user-images.githubusercontent.com/26427511/159187242-a9daa3f8-6c1f-4df5-a20f-359a8c07d8e0.png)
 
